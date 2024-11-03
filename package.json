@@ -4,17 +4,11 @@
   "description": "This project aim to...",
   "author": "Rafael &#34;Bill&#34; Bianchi <rafaelbianchi06@gmail.com>",
   "type": "module",
-  "private": true,
-  "homepage": "https://github.com/BianchiBill/no#readme",
-  "keywords": [
-    "node"
-  ],
-  "main": "main.js",
-  "files": [
-    "src"
-  ],
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon packages/fastify/app.js"
   },
   "repository": {
     "type": "git",
