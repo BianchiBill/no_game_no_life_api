@@ -1,0 +1,38 @@
+{
+  "name": "no",
+  "version": "1.0.0",
+  "description": "This project aim to...",
+  "author": "Rafael &#34;Bill&#34; Bianchi <rafaelbianchi06@gmail.com>",
+  "type": "module",
+  "private": true,
+  "homepage": "https://github.com/BianchiBill/no#readme",
+  "keywords": [
+    "node"
+  ],
+  "main": "main.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BianchiBill/no.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BianchiBill/no/issues"
+  },
+  "dependencies": {
+    "fastify": "4.28.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.11.1",
+    "@stylistic/eslint-plugin-js": "2.8.0",
+    "@types/eslint__js": "8.42.3",
+    "eslint": "9.11.1",
+    "eslint-config-prettier": "9.1.0",
+    "nodemon": "3.1.7"
+  },
+  "license": "MIT"
+}
