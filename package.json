@@ -10,13 +10,6 @@
   "scripts": {
     "start": "nodemon packages/fastify/app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BianchiBill/no.git"
-  },
-  "bugs": {
-    "url": "https://github.com/BianchiBill/no/issues"
-  },
   "dependencies": {
     "fastify": "4.28.0"
   },
