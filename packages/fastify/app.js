@@ -12,7 +12,7 @@ export const start = async () => {
 
   await fastify.register( ngnl_router );
 
-  fastify.listen({ port: 8081 }, function ( err, address ) {
+  fastify.listen({ port: 8081 }, function ( err ) {
     if ( err ) {
       fastify.log.error( err );
       process.exit( 1 );
@@ -20,5 +20,3 @@ export const start = async () => {
     console.log( 'CONECTADO' );
   });
 };
-
-await start();
