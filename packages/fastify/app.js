@@ -1,24 +1,34 @@
+/* eslint-disable no-process-env */
 
 import Fastify from 'fastify';
 import { ngnl_router } from '../routers/index.js';
 
 
 
-export const start = async () => {
 
-  const fastify = Fastify({
-    logger: true,
-  });
+const app = Fastify({
+  logger: true,
+});
 
-  await fastify.register( ngnl_router );
+await app.register( ngnl_router );
 
-  fastify.listen({ port: 8081 }, function ( err, address ) {
+app.get( '/', async ( req, res ) => {
+  return res.status( 200 ).type( 'text/plain' ).send( 'Olá, este é um texto de exemplo!' );
+});
+
+
+export default async function handler ( req, res ) {
+  await app.ready();
+  app.server.emit( 'request', req, res );
+}
+
+// rodar localmente
+if ( process.env.NODE_ENV !== 'production' ) {
+  app.listen({ port: 8081 }, ( err, address ) => {
     if ( err ) {
-      fastify.log.error( err );
+      app.log.error( err );
       process.exit( 1 );
     }
-    console.log( 'CONECTADO' );
+    app.log.info( `Servidor rodando em ${address}` );
   });
-};
-
-await start();
+}

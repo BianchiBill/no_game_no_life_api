@@ -1,14 +1,14 @@
 {
-  "name": "no",
+  "name": "no-game-no-life-api",
   "version": "1.0.0",
   "description": "This project aim to...",
-  "author": "Rafael &#34;Bill&#34; Bianchi <rafaelbianchi06@gmail.com>",
+  "author": "Rafael Bill Bianchi <rafaelbianchi06@gmail.com>",
   "type": "module",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
-    "start": "node packages/fastify/app.js"
+    "start": "set NODE_ENV=development && nodemon packages/fastify/app.js"
   },
   "dependencies": {
     "fastify": "4.28.0"
