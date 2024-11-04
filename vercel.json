@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "packages/fastify/app.js",
@@ -9,7 +8,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/packages/fastify/app.js"
+      "dest": "packages/fastify/app.js"
     }
   ]
 }

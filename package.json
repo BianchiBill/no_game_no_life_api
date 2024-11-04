@@ -8,7 +8,7 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "nodemon packages/fastify/app.js"
+    "start": "node packages/fastify/app.js"
   },
   "dependencies": {
     "fastify": "4.28.0"
