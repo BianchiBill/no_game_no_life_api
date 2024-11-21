@@ -7,7 +7,7 @@ In this fantasy world, everything's a game--and these gamer siblings play to win
 
 const sora = {
   name: 'Sora',
-  image: './images/sora.png',
+  image: 'images/sora.png',
   original_name: '空',
   birthday: 'Jul 7',
   age: 18,
@@ -18,7 +18,7 @@ const sora = {
 
 const shiro = {
   name: 'Shiro',
-  image: './images/shiro.png',
+  image: 'images/shiro.png',
   original_name: '白',
   birthday: 'Dec 12',
   age: 11,
@@ -30,7 +30,7 @@ const shiro = {
 const stephanie_dola = {
   name: 'Stephanie Dola',
   image: 'images/stephanie_dola.png',
-  original_name: 'ステファニー・ドーラ, Steph',
+  original_name: 'ステファニー・ドーラ',
   birthday:'Sep 13',
   age:18,
   gender:'Female',
@@ -40,7 +40,7 @@ const stephanie_dola = {
 
 const jibril = {
   name: 'Jibril',
-  image: './images/jibril.png',
+  image: 'images/jibril.png',
   original_name: 'ジブリール',
   age:6407,
   gender:'Female',
@@ -52,8 +52,8 @@ Unlike Steph, Jibril is happy to become the siblings underling, and is shown gro
 
 const clammy_zell = {
   name: 'Chlammy Zell',
-  image: './images/chlammy_zell.png',
-  original_name: 'クラミー・ツェル, Kurami',
+  image: 'images/chlammy_zell.png',
+  original_name: 'クラミー・ツェル',
   age:18,
   gender:'Female',
   race: 'Imanity',
@@ -62,8 +62,8 @@ const clammy_zell = {
 
 const fiel_nilvalen = {
   name: 'Fiel Nilvalen',
-  image: './images/fiel_nilvalen.jpg',
-  original_name: 'フィール・ニルヴァレン, Feel Nilvalen, Nirvalen',
+  image: 'images/fiel_nilvalen.jpg',
+  original_name: 'フィール・ニルヴァレン',
   age:52,
   gender:'Female',
   race: 'Elf',
@@ -73,7 +73,7 @@ const fiel_nilvalen = {
 
 const izuna_hatsuse = {
   name: 'Izuna Hatsuse',
-  image: './images/izuna_hatsuse.jpg',
+  image: 'images/izuna_hatsuse.png',
   original_name: '初瀬いづな',
   age:8,
   gender:'Female',
@@ -83,7 +83,7 @@ const izuna_hatsuse = {
 
 const tet = {
   name: 'Tet',
-  image: './images/tet.png',
+  image: 'images/tet.png',
   original_name: 'テト',
   age:'6000+',
   gender:'Male',
@@ -95,22 +95,22 @@ const tet = {
 
 const mahakoht_dola = {
   name: 'Mahakoht Dola',
-  image: './images/mahakoht_dola.png',
-  original_name: 'マハコート・ドーラ, Zenkokuo, Former King of Imanity, Foolish King, Makoto Dola',
+  image: 'images/mahakoht_dola.png',
+  original_name: 'マハコート・ドーラ',
   gender:'Male',
   history: 'The previous ruler of Imanity, as well as Steph\'s grandfather. His reign led to many losses for Imanity, thus many people call him a, "Foolish King."\nHe is terrible at games, being unable to win a majority. However, he is able to give Imanity a chance by finding out opponent\'s secrets. When he was near the end of his life, he entrusted Steph with, "The Key to Imanity\'s Hope;" which is to be given to someone who is capable of saving Imanity.',
 };
 
 const schwi_dola = {
   name: 'Schwi Dola',
-  image: './images/schwi_dola.png',
-  original_name: 'シュヴィ・ドーラ, Shuvi, Üc207Pr4f57t9',
+  image: 'images/schwi_dola.png',
+  original_name: 'シュヴィ・ドーラ',
   history: 'Schwi was the first Ex-machina to be introduced in Tet\'s story. In the story she seeks to understand the human heart and was found by Riku. She looks like a young human but with several differences, being two tails coming out from her back and other machine like features protruding from around her body. She bears many similarities with Shiro.\nHer behavior is similar to that of a stereotypical artificial intelligence. She can absorb and process data and intelligence very quickly and act in the appropriate manner, a unique characteristic of her race. However, she seems to have difficulty in comprehending emotions and desires, otherwise characterized by her as the heart.',
 };
 
 const riku_dola = {
   name: 'Riku Dola',
-  image: './images/riku dola',
+  image: 'images/riku_dola.jpg',
   original_name: 'リク・ドーラ',
   age:18 - 20,
   gender:'Male',
@@ -119,14 +119,14 @@ const riku_dola = {
 
 const couronna_dola = {
   name: 'Couronna Dola',
-  image: './images/couronna_dola.png',
-  original_name: 'コローネ・ドーラ, Couron',
+  image: 'images/couronna_dola.png',
+  original_name: 'コローネ・ドーラ',
   history: 'One of the colonists in Tet\'s story and the supposed older sister of Riku. She was also the founder of Elchea after the Great War and is Stephanie Dola\'s direct ancestor.\nCouronna has a very similar appearance to Stephanie Dola; however, her hair is slightly longer and darker. She cares about Riku, going as far as calling herself his sister after he had lost his family. Though she is a mere Imanity, she seems to be sensitive to things, as she was able to figure out that Shuvi was not an Imanity right away.',
 };
 
 const nonna_zell = {
   name: 'Nonna Zell',
-  image: './images/nonna_zell.jpg',
+  image: 'images/nonna_zell.jpg',
   original_name: 'ノンナ・ツェル',
   history: 'Nonna Zell was an Imanity that lived during the Great War. She is Chlammy Zell\'s ancestor.\nNonna bears many similarities with Chlammy. She is quite short and fair-skinned, and has short, black hair and navy blue irises with pink pupils.',
 };
@@ -134,7 +134,7 @@ const nonna_zell = {
 
 const think_nivalen = {
   name: 'Think Nirvalen',
-  image: './images/think_nirvalen.png',
+  image: 'images/think_nirvalen.png',
   original_name: 'シンク・ニルヴァレン',
   gender:'Female',
   history: 'Think Nirvalen was an Elf that lived during the Great War. She is Fiel Nirvalen\'s ancestor. She encountered Riku Dola after her invention of Void Zero Protection and its sister model, Eternal Fourth Protection.\nThink bears many similarities with Fiel. She has long, wavy blonde hair and her eyes have purple irises with pink pupils. She has a small pink ribbon that keeps a small portion of her hair in a plait and a very large bust. Her clothes consisted of a white, rather revealing dress that showed her midriff and barely covered her chest and legs and golden armbands with a long strip of white fabric that acted as her sleeves. She wore brown sandals with a ballet-like wrap that went just past her ankles and simple, blue bracelets.\nShe also had a headpiece that was made of four different-coloured jewels - two blue, two pink - and hair accessories that were shaped like white flowers.',
@@ -142,21 +142,21 @@ const think_nivalen = {
 
 const azriel = {
   name: 'Azriel',
-  image: './images/azriel.jpg',
+  image: 'images/azriel.jpg',
   original_name: 'アズリール',
   history: 'The first Flügel created by Artosh and Representative of the Council of Eighteen Wings. As such, her title allows her to have first say in emergencies. She calls Jibril her "little sister".\nDuring the war, she conveyed Artosh\'s will among other Flügel. After the war, she passed the law in which Flügel shared books among each other.\nAzriel has a somewhat split personality, being peppy and bubbly to a cold, relentless state. Prior to Jibril\'s creation, Azriel was merciless and considered other Flügel expendable; afterwards, however, she turned into a sister figure when Jibril came to be. Even so, she continues to have a condescending attitude towards lower exceed races. She is extremely powerful as the first Flügel to be created, being able to pull off many feats. This is further enhanced by her mental connection with Avant Heim, while also being its representative. Even with her strength, Jibril considers Azriel to be rather stupid compared to other Flügel. Despite this, Azriel is clever when it comes to mind games and deception. What she lacks is an understanding of learning, trying, and failing; preventing her from learning from her mistakes.',
 };
 
 const plum = {
   name: 'Plum',
-  image: './images/plum.jpg',
-  original_name: 'プラム, Okame',
+  image: 'images/plum.jpg',
+  original_name: 'プラム',
   history: 'A mysterious character belonging to the Damphir race who requests the help of Sora and Shiro to save her race. Shy and weak to sunlight, but very good at handling magic to alter perception.\nLater it is revealed that he is man and is the Prince and representant of the Damphires.',
 };
 
 const horou = {
   name: 'Horou',
-  image: './images/horou.jpg',
+  image: 'images/horou.jpg',
   original_name: '帆楼',
   gender:'Female',
   age: 'Unknown (Hundreds of millions, possibly billions of years old)',
@@ -166,8 +166,8 @@ const horou = {
 
 const miko = {
   name: 'Miko',
-  image: './images/miko.jpg',
-  original_name: '巫女, Shrine Priestess, Holy Shrine Maiden',
+  image: 'images/miko.jpg',
+  original_name: '巫女',
   age:'50+',
   gender:'Female',
   race: 'Werebeast',
@@ -176,15 +176,15 @@ const miko = {
 
 const amira = {
   name: 'Amira',
-  image: './images/amira.png',
+  image: 'images/amira.png',
   original_name: 'アミラ',
   history: 'Amira was previously the acting representative of the Seirens while their queen, Laira, was asleep. She has a bubbly personality and is blissful yet ignorant. She also does not hold back her emotions, often flirting with others.',
 };
 
 const emir_eins = {
   name: 'Emir-Eins',
-  image: './images/emir-eins.png',
-  original_name: 'イミルアイン, Ec001Bf9Ö48a2, Ymirein',
+  image: 'images/emir-eins.png',
+  original_name: 'イミルアイン',
   age:'6200+',
   gender:'Female',
   race: 'Ex-Machina',
@@ -193,8 +193,8 @@ const emir_eins = {
 
 const einzig = {
   name: 'Einzig',
-  image: './images/einzig.png',
-  original_name: 'アインツィヒ, Einzeig, Aintsihi, Einithi',
+  image: 'images/einzig.png',
+  original_name: 'アインツィヒ',
   age:'6000+',
   gender:'Male',
   race: 'Ex-Machina',
@@ -203,14 +203,14 @@ const einzig = {
 
 const raphael = {
   name: 'Raphael',
-  image: './images/raphael.png',
+  image: 'images/raphael.png',
   original_name: 'ラファエル',
   history: 'Raphael is the fourth unit of Flügel, along with being a sister figure for Jibril. Raphael is calm, but is easily annoyed, often by Azriel. Due to a prior event, Raphael is missing most of her left wing.',
 };
 
 const laira_lorelei = {
   name: 'Laira Lorelei',
-  image: './images/laira_lorelei.png',
+  image: 'images/laira_lorelei.png',
   original_name: 'ライラ・ローレライ',
   gender:'Female',
   history: 'Laira is the current queen of the Seirens, with Amira as her deputy. She seeks pure love, as she grew up in wealth, though she enjoys rejecting those that love her in a brutal fashion. Prior to meeting Sora, she was in a cold sleep for 800 years.',
@@ -218,14 +218,14 @@ const laira_lorelei = {
 
 const artosh = {
   name: 'Artosh',
-  image: './images/artosh.png',
-  original_name: '戦神, God of War',
+  image: 'images/artosh.png',
+  original_name: '戦神',
   history: 'The God of War and creator of the Flügel. Artosh was considered to be the strongest and mightiest member of the Old Deus.\nHe is described as being a hulk of a man, being over double the height of a regular man. He sports bulging muscles all around his body, a strong black beard, and bright golden eyes. He has 18 pairs of wings on his back that, when not in use, completely drape over his back like a feathered cape.\nArtosh was extremely prideful, considering himself the, "strongest being alive." However, he secretly wished for someone who could face him head-on.\nArtosh was able to use a much more potent version of Heaven Strike, called, "God Strike." His God Strike was extremely powerful, being almost impossible to stop. After using God Strike, he would be very weak and fatigued. He was killed at the end of the great war due to that drawback. Because of that, he held high respect for Riku; who, despite being an Imanity, was able to kill him through a risky plan.',
 };
 
 const ino_hatsuse = {
   name: 'Ino Hatsuse',
-  image: './images/ino_hatsuse.png',
+  image: 'images/ino_hatsuse.png',
   original_name: '初瀬いの',
   history: 'A werebeast and Izuna\'s grandpa. He is protective of Izuna and dislikes it when she is close to Sora and Shiro. According to Miko, Hatsuse has thirty wives, much to Sora\'s chagrin.\nHatsuse acts in a formal manner, being friendly around guests and officials. However, if he\'s around rude or condescending people, he will usually reciproctate their attitudes back. Hatsuse also is very perverted, telling many dirty jokes while not on a job. He was also banished from his tribe due to having experiences with every woman in his tribe. As he has 30 wives, he wishes for polygamy to be legal in the Eastern Union; which is one reason why he works under Miko.',
 };
@@ -233,22 +233,21 @@ const ino_hatsuse = {
 
 const tilvilg_nyi = {
   name: 'Tilvilg Nýi',
-  image: './images/tilvilg_nyi.png',
-  original_name: 'ニーイ・ティルヴィルグ, Til',
+  image: 'images/tilvilg_nyi.png',
+  original_name: 'ニーイ・ティルヴィルグ',
   age:84,
   history: 'Til is a handicapped dwarf with weak magic abilities.',
 };
 
 const veig_drauvnil = {
   name: 'Veig Drauvnil',
-  image: './images/veig_drauvnil.jpg',
-  original_name: 'ヴェイグ・ドラウヴニル, Chieftain',
+  image: 'images/veig_drauvnil.jpg',
+  original_name: 'ヴェイグ・ドラウヴニル',
   history: 'Veig is the chieftain, the agent plenipotentiary of Dwarf.',
 };
 
 
 export const chars = {
-  no_game_no_life,
   sora,
   shiro,
   stephanie_dola,
@@ -281,7 +280,7 @@ export const chars = {
 // TEMPLATE
 // const algo = {
 //   name: '',
-//   image: ./images/'',
+//   image: images/'',
 //   original_name: '',
 //   birthday: '',
 //   age: 0,
