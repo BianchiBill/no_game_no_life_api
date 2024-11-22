@@ -87,7 +87,7 @@ const tet = {
   original_name: 'テト',
   age:'6000+',
   gender:'Male',
-  race: 'None (Formerly: Old Deus)',
+  race: 'God',
   history: `Tet is the One True God of Disboard.
   Tet does not belong to any of the 16 races, although the closest affiliation to him would be Immanity.
   To challenge Tet for the title of the One True God, one must collect all pieces of different chess from 16 races. This means that, under the tenth rule of the Ten Covenants, one must defeat or unite all 16 races before being able to play against him.\nHe was born from Riku's wish and the overwhelming presence of incredible magic energy. Claiming the Suniaster and becoming the One True God, Tet immediately used his absolute power to repair the damage done to the planet and set forth the Ten Covenants, thus ending the Great War.`,
@@ -98,6 +98,7 @@ const mahakoht_dola = {
   image: 'images/mahakoht_dola.png',
   original_name: 'マハコート・ドーラ',
   gender:'Male',
+  race: 'Imanity',
   history: 'The previous ruler of Imanity, as well as Steph\'s grandfather. His reign led to many losses for Imanity, thus many people call him a, "Foolish King."\nHe is terrible at games, being unable to win a majority. However, he is able to give Imanity a chance by finding out opponent\'s secrets. When he was near the end of his life, he entrusted Steph with, "The Key to Imanity\'s Hope;" which is to be given to someone who is capable of saving Imanity.',
 };
 
@@ -105,6 +106,8 @@ const schwi_dola = {
   name: 'Schwi Dola',
   image: 'images/schwi_dola.png',
   original_name: 'シュヴィ・ドーラ',
+  gender: 'Female',
+  race: 'Ex-Machina',
   history: 'Schwi was the first Ex-machina to be introduced in Tet\'s story. In the story she seeks to understand the human heart and was found by Riku. She looks like a young human but with several differences, being two tails coming out from her back and other machine like features protruding from around her body. She bears many similarities with Shiro.\nHer behavior is similar to that of a stereotypical artificial intelligence. She can absorb and process data and intelligence very quickly and act in the appropriate manner, a unique characteristic of her race. However, she seems to have difficulty in comprehending emotions and desires, otherwise characterized by her as the heart.',
 };
 
@@ -114,6 +117,7 @@ const riku_dola = {
   original_name: 'リク・ドーラ',
   age:18 - 20,
   gender:'Male',
+  race: 'Imanity',
   history: 'Riku was an 18 years old Imanity who lived during the Great War on Disboard. He was one of the main protagonists in Tet\'s story. He encountered Shuvi while going on an expedition and brought her to his colony after having lost in a game against her (albeit willingly).\nHe bears many similarities with Sora, being his black hair, slender body, black eyes and his face. Riku is a master strategist and manipulator, much like Sora. He is capable of duping even the matriarch of the Nilvalen family (known as the strongest and smartest Elf at the time) into giving out valuable information, albeit at the cost of his health.',
 };
 
@@ -121,6 +125,8 @@ const couronna_dola = {
   name: 'Couronna Dola',
   image: 'images/couronna_dola.png',
   original_name: 'コローネ・ドーラ',
+  gender: 'Female',
+  race: 'Imanity',
   history: 'One of the colonists in Tet\'s story and the supposed older sister of Riku. She was also the founder of Elchea after the Great War and is Stephanie Dola\'s direct ancestor.\nCouronna has a very similar appearance to Stephanie Dola; however, her hair is slightly longer and darker. She cares about Riku, going as far as calling herself his sister after he had lost his family. Though she is a mere Imanity, she seems to be sensitive to things, as she was able to figure out that Shuvi was not an Imanity right away.',
 };
 
@@ -128,6 +134,8 @@ const nonna_zell = {
   name: 'Nonna Zell',
   image: 'images/nonna_zell.jpg',
   original_name: 'ノンナ・ツェル',
+  gender: 'Female',
+  race: 'Imanity',
   history: 'Nonna Zell was an Imanity that lived during the Great War. She is Chlammy Zell\'s ancestor.\nNonna bears many similarities with Chlammy. She is quite short and fair-skinned, and has short, black hair and navy blue irises with pink pupils.',
 };
 
@@ -137,6 +145,7 @@ const think_nivalen = {
   image: 'images/think_nirvalen.png',
   original_name: 'シンク・ニルヴァレン',
   gender:'Female',
+  race: 'Elf',
   history: 'Think Nirvalen was an Elf that lived during the Great War. She is Fiel Nirvalen\'s ancestor. She encountered Riku Dola after her invention of Void Zero Protection and its sister model, Eternal Fourth Protection.\nThink bears many similarities with Fiel. She has long, wavy blonde hair and her eyes have purple irises with pink pupils. She has a small pink ribbon that keeps a small portion of her hair in a plait and a very large bust. Her clothes consisted of a white, rather revealing dress that showed her midriff and barely covered her chest and legs and golden armbands with a long strip of white fabric that acted as her sleeves. She wore brown sandals with a ballet-like wrap that went just past her ankles and simple, blue bracelets.\nShe also had a headpiece that was made of four different-coloured jewels - two blue, two pink - and hair accessories that were shaped like white flowers.',
 };
 
@@ -144,6 +153,8 @@ const azriel = {
   name: 'Azriel',
   image: 'images/azriel.jpg',
   original_name: 'アズリール',
+  gender: 'Female',
+  race: 'Flügel',
   history: 'The first Flügel created by Artosh and Representative of the Council of Eighteen Wings. As such, her title allows her to have first say in emergencies. She calls Jibril her "little sister".\nDuring the war, she conveyed Artosh\'s will among other Flügel. After the war, she passed the law in which Flügel shared books among each other.\nAzriel has a somewhat split personality, being peppy and bubbly to a cold, relentless state. Prior to Jibril\'s creation, Azriel was merciless and considered other Flügel expendable; afterwards, however, she turned into a sister figure when Jibril came to be. Even so, she continues to have a condescending attitude towards lower exceed races. She is extremely powerful as the first Flügel to be created, being able to pull off many feats. This is further enhanced by her mental connection with Avant Heim, while also being its representative. Even with her strength, Jibril considers Azriel to be rather stupid compared to other Flügel. Despite this, Azriel is clever when it comes to mind games and deception. What she lacks is an understanding of learning, trying, and failing; preventing her from learning from her mistakes.',
 };
 
@@ -151,6 +162,8 @@ const plum = {
   name: 'Plum',
   image: 'images/plum.jpg',
   original_name: 'プラム',
+  race: 'Dhampir',
+  gender: "Male",
   history: 'A mysterious character belonging to the Damphir race who requests the help of Sora and Shiro to save her race. Shy and weak to sunlight, but very good at handling magic to alter perception.\nLater it is revealed that he is man and is the Prince and representant of the Damphires.',
 };
 
@@ -159,7 +172,7 @@ const horou = {
   image: 'images/horou.jpg',
   original_name: '帆楼',
   gender:'Female',
-  age: 'Unknown (Hundreds of millions, possibly billions of years old)',
+  age: 'Unknown',
   race: 'Old Deus',
   history: 'Horou is the Goddess of Doubt and Trust, and the creator of Ex-Machina. She was the first and therefore oldest conscious being in the world and the self-declared representative of the Old Deus, but her possession of the Race Piece has yet to be determined.\nUntil the events in Light Novel Volume 7 and 8, she had existed inside of Miko as conditions upon winning a game they played when Miko was a child.',
 };
@@ -178,6 +191,8 @@ const amira = {
   name: 'Amira',
   image: 'images/amira.png',
   original_name: 'アミラ',
+  race: 'Seiren',
+  gender: "Female",
   history: 'Amira was previously the acting representative of the Seirens while their queen, Laira, was asleep. She has a bubbly personality and is blissful yet ignorant. She also does not hold back her emotions, often flirting with others.',
 };
 
