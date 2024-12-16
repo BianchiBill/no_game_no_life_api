@@ -1,11 +1,11 @@
-export const Card = ({ data }) => {
+export const Card = ({ data, key }) => {
   const { name, image, original_name, birthday, gender, race } = data;
 
   const flexCenter = 'flex justify-center'
 
   return (
     <>
-      <div className="bg-pink-900 h-full rounded-lg border-2 border-ngnl-border text-lg uppercase font-semibold text-gray-100">
+      <div className="bg-pink-900 h-full rounded-lg border-2 border-ngnl-border text-lg uppercase font-semibold text-gray-100" key={key}>
         <p className={flexCenter}>{name}</p>
         <p className={flexCenter}>{original_name}</p>
         <div className={flexCenter}>
