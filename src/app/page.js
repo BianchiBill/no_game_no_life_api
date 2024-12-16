@@ -2,7 +2,7 @@
 
 import { Card, FullView } from '../components/index.js'
 import { chars } from '../../packages/chars/chars.js';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 export default function Home() {
   const [openJsonDiv, setOpenJsonDiv] = useState(false)
@@ -12,9 +12,6 @@ export default function Home() {
     event.preventDefault();
     const char = event.target[0].value ? event.target[0].value : 'sora'
 
-    console.log(`🚀 ==  onSubmit ==  char:`, char)
-    console.log(`🚀 ==  onSubmit ==  chars[char]:`, chars[char])
-
     setSelectedChar(chars[char])
     setOpenJsonDiv(true);
     console.log(selectedChar)
@@ -22,9 +19,16 @@ export default function Home() {
 
   return (
     <div className='bg-pink-900'>
+      <link rel="icon" href="assets/No-Game-No-Life-anime-logo-api.png" />
+      {/* <div className='flex space-x-5 px-4 mx-4 bg-slate-800'>
+        <div className='bg-orange-600'>sdjfhskjdfh</div>
+        <div className='bg-ngnl-yellow'>12345678</div>
+      </div> */}
       <div className="flex flex-col justify-items-center items-center content-center">
         <div className="justify-items-center items-center content-center">
-          <img src={'assets/No-Game-No-Life-anime-logo-api.png'} alt={'bg'} className="" />
+          <a href='https://no-game-no-life-api.vercel.app'>
+            <img src={'assets/No-Game-No-Life-anime-logo-api.png'} alt={'bg'} className="" />
+          </a>
         </div>
         <div className='pb-4'>
           <form className="my-2" onSubmit={onSubmit}>
@@ -39,7 +43,6 @@ export default function Home() {
           </form>
         </div>
         {openJsonDiv && selectedChar ? (
-          // <FullView data={selectedChar} />
           <div className="bg-ngnl-dark-pink border-2 text-white mx-16 mb-10 px-4 rounded-lg">
             <pre className='p-4' style={{
               whiteSpace: 'pre-wrap', wordBreak: 'break-word',
@@ -62,17 +65,3 @@ export default function Home() {
     </div>
   );
 }
-
-// border-top-left-radius: 10px;
-//     border-bottom-left-radius: 10px;
-//     color: rgb(85, 85, 85);
-//     z-index: 2;
-//     font-size: 1em;
-//     flex: 0 0 0%;
-//     white-space: nowrap;
-//     border-width: 1px 0px 1px 1px;
-//     border-style: solid;
-//     border-color: rgb(230, 230, 230);
-//     border-image: initial;
-//     background: rgb(230, 230, 230);
-//     padding: 0.35em 0.5em;
